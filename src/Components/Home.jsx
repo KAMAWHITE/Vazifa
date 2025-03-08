@@ -78,7 +78,7 @@ function Home() {
       </button>
 
       {isModalOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex justify-center items-center">
+        <div className="fixed inset-0 backdrop-blur-md bg-opacity-60 flex justify-center items-center">
           <div className="bg-white shadow-md p-6 rounded-lg w-96 relative">
             <button onClick={() => setIsModalOpen(false)} className="absolute top-2 right-2 text-gray-500 hover:text-gray-800 text-xl">
               &times;
